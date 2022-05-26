@@ -83,7 +83,7 @@ fn main() {
     }
     println!("{:?}", womens_desire);
 
-    for i in (_n * 2)..(_n * 3) {
+    for i in _n * 2.._n * 3 {
         let vec = vals[i as usize].split(" ").collect::<Vec<&str>>();
 
         matchings.push(vec[1 as usize].parse::<i32>().unwrap());

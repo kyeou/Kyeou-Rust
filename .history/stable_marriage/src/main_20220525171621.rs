@@ -48,6 +48,7 @@ fn check_unstable(curr_man_id: i32, curr_woman_id: i32, matchings: &Vec<i32>, me
 }
 
 fn main() {
+    let file = File::open("input.txt").unwrap();
     let reader = BufReader::new(File::open("input.txt").unwrap());
     let mut _n: i32 = 0;
     let mut vals: Vec<String> = Vec::new();
@@ -83,7 +84,7 @@ fn main() {
     }
     println!("{:?}", womens_desire);
 
-    for i in (_n * 2)..(_n * 3) {
+    for i in _n * 2.._n * 3 {
         let vec = vals[i as usize].split(" ").collect::<Vec<&str>>();
 
         matchings.push(vec[1 as usize].parse::<i32>().unwrap());
