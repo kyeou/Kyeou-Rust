@@ -31,6 +31,9 @@ fn main() {
 
     for (_index, line) in reader.lines().enumerate() {
         let line = line.unwrap().to_string();
+        // Show the line and its number.
+        //println!("{}. {}", index + 1, line);
+
         vals.push(line);
     }
 

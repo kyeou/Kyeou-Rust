@@ -31,6 +31,8 @@ fn main() {
 
     for (_index, line) in reader.lines().enumerate() {
         let line = line.unwrap().to_string();
+      
+
         vals.push(line);
     }
 
