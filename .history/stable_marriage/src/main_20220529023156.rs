@@ -63,9 +63,9 @@ fn main() {
     for (index, line) in reader.lines().enumerate() {
         
         if index == 0 {
-            _n = line.unwrap().to_string().parse::<i32>().unwrap();
+            _n = line.parse::<i32>().unwrap();
         } else {
-            vals.push(line.unwrap().to_string());
+            vals.push(line);
         }
     }
     println!("{:#?}", vals);

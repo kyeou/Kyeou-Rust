@@ -30,6 +30,7 @@ fn main() {
     let mut _puddles: i32 = 0;
 
     for (_index, line) in reader.lines().enumerate() {
+    
         vals.push(line.unwrap().to_string());
     }
 
