@@ -29,7 +29,7 @@ fn check_unstable(
 
     for i in 0..matchings.len() {
         if matchings[i as usize] == curr_woman_id {
-            herr_curr_match = matchings[i as usize];
+            herr_curr_match = (i+1) as i32;
         }
     }
 
