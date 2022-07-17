@@ -1,0 +1,20 @@
+[
+  {
+    "_date": {
+      "_month": "Jan",
+      "_day": 1,
+      "_year": 2000
+    },
+    "_amount": 23.45,
+    "_desc": "This is a test"
+  },
+  {
+    "_date": {
+      "_month": "Jan",
+      "_day": 1,
+      "_year": 2000
+    },
+    "_amount": 12.34,
+    "_desc": "This is a test"
+  }
+]
