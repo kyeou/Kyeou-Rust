@@ -7,9 +7,9 @@ use std::fmt;
 
 
 #[derive(Serialize, Deserialize, Debug)]
-pub struct Date {pub _month: String,pub _day: i32,pub _year: i32}
+pub struct Date {pub _month: String, pub _day: i32, pub _year: i32}
 impl Date {
-    fn new( _month: String, _day: i32, _year: i32) -> Date {
+    fn new(_month: String, _day: i32, _year: i32) -> Date {
         Date { _month, _day, _year }
     }
 }
